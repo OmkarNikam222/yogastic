@@ -31,7 +31,7 @@ body {
     --e-global-color-text: #6b6b6b;
     --e-global-color-accent: #413625;
 	--e-global-color-white: #ffffff;
-    --e-global-color-soft-orange: #e1ccad;
+    --e-global-color-soft-orange: #846c48;
     --e-global-color-desaturated-magenta: #543458;
     --e-global-color-very-dark-desaturated-magenta: #5c3960;
     --e-global-color-mostly-desaturated-magenta: #8a648d;
@@ -87,11 +87,15 @@ p{
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-image: url('../images/banner_section_background.jpg');
+    /* background-image: url('../images/banner_section_background.jpg'); */
+    /* background-color: #254b39; */
+    /* background: linear-gradient(135deg, #254b39, #5ebf23c9, #254b39); */
+    background: linear-gradient(171deg, #70d1e9c2, #23bf71b5, #1557241f);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .main_header {    
     padding: 42px 292px 0;
 }
@@ -477,7 +481,11 @@ p{
 /* Home Page About Us Section Style */
 
 .aboutus_section{
-    background-image: url('../images/aboutus_background.png');
+    /* background-image: url('../images/aboutus_background.png'); */
+        /* background: linear-gradient(135deg, #254b39, #5ebf23c9, #254b39); */
+            background: linear-gradient(171deg, #70d1e9c2, #23bf71b5, #1557241f);
+
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -997,7 +1005,11 @@ textarea {
 /* Home Page Testimonial Section Style */
 
 .testimonial_section{
-    background-image: url('../images/testimonial_background.jpg');
+    /* background-image: url('../images/testimonial_background.jpg'); */
+        /* background: linear-gradient(135deg, #254b39, #5ebf23c9, #254b39); */
+            background: linear-gradient(171deg, #70d1e9c2, #23bf71b5, #1557241f);
+
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1279,9 +1291,18 @@ textarea {
 
 .footer-section{
     position: relative;
-    background-color: var(--e-global-color-secondary);
+    /* background-color: var(--e-global-color-secondary); */
+    /* background: linear-gradient(135deg, #254b39, #5ebf23c9, #254b39); */
+        background: linear-gradient(171deg, #70d1e9c2, #23bf71b5, #1557241f);
+
     padding: 308px 0 0px;
     margin-top: -218px;
+}
+.w-10{
+    width: 10%;
+}
+.crop_img{
+    border-radius: 0 200px 0 200px;
 }
 .middle-portion {
     margin-bottom: 92px;
